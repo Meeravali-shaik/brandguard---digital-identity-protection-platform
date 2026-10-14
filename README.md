@@ -5,6 +5,36 @@
 BrandGuard is a React and FastAPI application for registering a brand's official identity anchors, scanning a candidate dataset, explaining why a candidate is suspicious, and moving findings through a human analyst review workflow. The repository includes a controlled synthetic benchmark for demonstrating Unicode homoglyphs, typosquatting, copied logos, identity conflicts, deceptive app packages, and strict official-asset exclusions.
 
 The project is a local demonstration and evaluation system. Its current scan implementation evaluates database-resident candidate records; it is not a continuously running crawler and does not automatically submit takedown requests.
+## Product Walkthrough
+
+### 1. Dashboard
+<img width="1917" height="926" alt="image" src="https://github.com/user-attachments/assets/94e8da27-c5b6-4c52-abed-57f1ecf9f59d" />
+
+The dashboard provides an overview of the current detection results and investigation workflow.
+
+### 2. Brand Registry
+<img width="1917" height="903" alt="image" src="https://github.com/user-attachments/assets/74b48fd1-9725-4744-bb60-d6e4b6f9c917" />
+
+
+The brand registry stores official identity anchors used during candidate analysis and exclusion.
+
+### 3. Findings Explorer
+
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/fe386ad3-a0e5-4897-9de0-ffc51c28a678" />
+
+The findings explorer helps analysts filter and review suspicious candidate records.
+
+### 4. Explainable Detection Evidence
+
+<img width="1122" height="835" alt="image" src="https://github.com/user-attachments/assets/374b6a61-c711-409e-87a2-fb08afb512e5" />
+
+Each finding includes available detection signals and explanations that help analysts understand why a candidate was flagged.
+
+### 5. Analyst Review Workflow
+
+<img width="1117" height="812" alt="image" src="https://github.com/user-attachments/assets/bca510d9-943d-4ba4-bf41-2f42f534de18" />
+
+Analysts can update finding statuses and record investigation notes.
 
 ## Contents
 
