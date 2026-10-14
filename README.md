@@ -1,7 +1,8 @@
 # BrandGuard - Digital Identity Protection Platform
 
-[## 🚀 Live Demo]([https://your-live-link.vercel.app](https://brandguard-digital-identity-protect-orpin.vercel.app/))
+## 🚀 Live Demo
 
+[Click Here to View BrandGuard](https://brandguard-digital-identity-protect-orpin.vercel.app/)
 
 > Deterministic, explainable triage for suspicious brand social profiles and mobile applications.
 
