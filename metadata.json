@@ -1,0 +1,6 @@
+{
+  "name": "BrandGuard — Digital Identity Protection Platform",
+  "description": "Enterprise digital risk protection platform against brand impersonation, deceptive apps, and rogue social profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

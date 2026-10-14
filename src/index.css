@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-soc-bg: #030712;
+    --color-soc-surface: #0b1329;
+    --color-soc-border: #1e293b;
+    --color-soc-cyan: #06b6d4;
+    --color-soc-rose: #f43f5e;
+    --color-soc-amber: #f59e0b;
+    --color-soc-emerald: #10b981;
+  }
+
+  body {
+    background-color: #020617;
+    color: #f1f5f9;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-variant-numeric: tabular-nums;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom subtle dark scrollbars for SOC data tables and modals */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #090d16;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+  }
+}
+
+/* Accessible focus visible utility */
+.soc-focus {
+  outline: none;
+}
+.soc-focus:focus-visible {
+  outline: none;
+  ring: 2px;
+  box-shadow: 0 0 0 2px #06b6d4;
+}
+
+/* Subtle grid pattern for cybersecurity workstation vibe */
+.cyber-grid {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(30, 41, 59, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 41, 59, 0.25) 1px, transparent 1px);
+}
